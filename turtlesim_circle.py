@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#impoting all the requires libraries 
+#importing all the requires libraries 
 import rospy
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
@@ -42,5 +42,3 @@ while (flagstop==0):
 	velocity_publisher.publish(move_cmd)#publisher for cmd_vel msg
 	print("Moving in a circle")
         rate.sleep()
-
-#VD_1717
